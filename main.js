@@ -1,3 +1,4 @@
+console.log(Sankey);
 var getScriptPromisify = (src) => {
     return new Promise((resolve) => {
       $.getScript(src, resolve);
@@ -18,6 +19,7 @@ var getScriptPromisify = (src) => {
         measures.push({ key, ...measure })
       }
       return { dimensions, measures, dimensionsMap, measuresMap }
+      console.log(measures);
     }
   
     const appendTotal = (data) => {
