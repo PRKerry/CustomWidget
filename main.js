@@ -1,3 +1,4 @@
+console.log("This is a sankey chart");
 var getScriptPromisify = (src) => {
     return new Promise((resolve) => {
       $.getScript(src, resolve);
