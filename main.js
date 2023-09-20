@@ -19,6 +19,8 @@ var getScriptPromisify = (src) => {
         measures.push({ key, ...measure })
       }
       return { dimensions, measures, dimensionsMap, measuresMap }
+      console.log(dimensions);
+      console.log(measures);
     }
   
     const appendTotal = (data) => {
